@@ -29,4 +29,3 @@ end
 
 
 
-duplicate_encode("PenisssssAaaa lubje")
