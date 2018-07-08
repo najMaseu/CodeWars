@@ -15,3 +15,9 @@ sequenceSum(2,6,2) === 12 // 2 + 4 + 6
 sequenceSum(1,5,1) === 15 // 1 + 2 + 3 + 4 + 5
 sequenceSum(1,5,3) === 5 // 1 + 4
 =end
+def sequence_sum(begin_number, end_number, step)
+  (begin_number..end_number).step(step).reduce(0, :+)
+end
+
+
+puts sequence_sum(34, 5, 2)
